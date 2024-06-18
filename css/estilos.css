@@ -41,6 +41,7 @@ header a {
 a:hover{
     background-color: white;
     border-color: black;
+    transition-property: background-color, border-radius;
     color: black;
 
 }
