@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+*{
+    box-sizing: border-box;
+}
+
+
+h1{
+    font-size: 300%;
+}
+
+header{
+
+    font-family: "Montserrat";
+    width: 100%;
+    padding-top: 15px;
+    height: 40vh;
+    background-color: white;
+    color: black;
+    text-align: center;
+}
+
+header a {
+    background-color: black;
+    color: white;
+    border: 1px dashed cadetblue;
+    text-decoration: none;
+    text-transform: uppercase;
+    display: block;
+    width: 160px;
+    height: 40px;
+    margin: auto;
+    margin-top: 20px;
+    line-height: 40px;
+    transition: all 2s;
+    border-radius: 5px;
+
+}
+
+a:hover{
+    background-color: white;
+    border-color: black;
+    color: black;
+
+}
+
+main{
+    background-color: white;
+    width: 85%;
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
+
+video{
+   
+ margin: auto;
+ display: flex;
+    width: 80%;
+    margin-top: 40px;
+    margin-bottom: 40px;
+
+    
+}
+div{
+    width: 46%;
+    margin-top: 30px;
+
+}
+
+img{
+    width: 100%;
+
+}
+
+footer{
+    font-family: "Montserrat";
+    text-align: center;
+    width: 100%;
+    padding-top: 15px;
+    height: 20vh;
+    background-image: linear-gradient(pink, black);
+    background-position: 20%;
+    color: white;
+
+}
+
+h4{
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 10vh;
+    text-align: center;
+}
+
+div:nth-child(5){
+
+    width: 100px;
+    height: 190px;
+    background-image: url(../Imagenes/sprites.jpg);
+    animation-name: animacion;
+    animation: animacion 1s infinite;
+    animation-timing-function: steps(2);
+}
+
+@keyframes animacion {
+
+    0%{background-position: -80px -30px }
+    50%{background-position: -280px -30px}
+    100%{  background-position: -670px -30px}
+    
+}
